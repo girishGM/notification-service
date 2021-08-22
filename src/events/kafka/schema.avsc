@@ -1,0 +1,36 @@
+{
+  "name": "emailRequest",
+  "type": "record",
+  "namespace": "com.test.notification",
+  "doc": "Notification request schema ",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "to",
+      "type": "string"
+    },
+       {
+      "name": "fromEmail",
+      "type": "string"
+    },
+    {
+      "name": "subject",
+      "type": "string"
+    },
+       {
+      "name": "templateId",
+      "type": "int"
+    },
+    {
+      "name": "trackOpens",
+      "type": "boolean"
+    },
+    {
+      "name": "trackClicks",
+      "type": "boolean"
+    }
+  ]
+}
