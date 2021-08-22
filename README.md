@@ -2,6 +2,12 @@
 
 Back-end service ( REST APIs) to send email using kafka producer, consumer with schema registry.
 
+## Architecture diagram
+
+![alt text](https://raw.githubusercontent.com/girishGM/notification-service/main/NotificationService.png?raw=true)
+
+
+
 ## Get Started
 
 To start get the code from the git hub repo then follow below steps:
@@ -51,12 +57,6 @@ To start get the code from the git hub repo then follow below steps:
 - Consume the API from [Postman]
 
 - In localhost -- http://localhost:7070/sendEmail
-
-
-## Architecture diagram
-
-![alt text](https://raw.githubusercontent.com/girishGM/notification-service/main/NotificationService.png?raw=true)
-
 
 
 
