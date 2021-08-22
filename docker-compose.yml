@@ -69,7 +69,7 @@ services:
       TOPIC_DLQ: "dlq-topic-notification"
       CLIENT_ID: "notification-user"
       CLIENT_ID_DLQ: "dlq-notification-user"
-      ALARM_EMAIL: "gm.mathpal@gmail.com"
+      ALARM_EMAIL: "email to get alarm"
       SCHEMA_REGISTRY_URL: "http://schemaregistry:8085"
     ports:
       - '7070:7070'  
