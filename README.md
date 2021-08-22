@@ -60,7 +60,7 @@ To start get the code from the git hub repo then follow below steps:
 
 
 
-## Architecture diagram
+## Sequence diagram
 
 ![alt text](https://github.com/girishGM/notification-service/blob/main/NotificationServiceFlow.png?raw=true)
 
