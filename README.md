@@ -10,10 +10,11 @@ To start get the code from the git hub repo then follow below steps:
 
 ### 1. Not using docker container
   ### Environment property file
-    create a .env file or use the .env.sample file to put all enviorment related variables
+    create a .env file using provided .env.sample file to put all environment related variables.
     
  ### Docker compose file
-    Please update the ALARM_EMAIL key under notificationservice,  this will use to send the email when system got any error or processing of a message is failed.
+    Please update the ALARM_EMAIL key under notificationservice,  
+    this will be used to send an email when processing of a message is failed.
 
 ### 2. Not using docker container
   ### Installation
