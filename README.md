@@ -55,7 +55,7 @@ To start get the code from the git hub repo then follow below steps:
 
 ## Architecture diagram
 
-![alt text](https://raw.githubusercontent.com/girishGM/notification-service/main/NotificationService.pdf?raw=true)
+![alt text](https://raw.githubusercontent.com/girishGM/notification-service/main/NotificationService.png?raw=true)
 
 
 
