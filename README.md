@@ -55,5 +55,5 @@ To start get the code from the git hub repo then follow below steps:
 
 
 
-![alt text](https://github.com/girishGM/notification-service/main/NotificationServiceFlow.png?raw=true)
+![alt text](https://github.com/girishGM/notification-service/blob/main/NotificationServiceFlow.png?raw=true)
 
