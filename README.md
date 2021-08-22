@@ -53,7 +53,14 @@ To start get the code from the git hub repo then follow below steps:
 - In localhost -- http://localhost:7070/sendEmail
 
 
+## Architecture diagram
 
+![alt text](https://raw.githubusercontent.com/girishGM/notification-service/main/NotificationService.pdf?raw=true)
+
+
+
+
+## Architecture diagram
 
 ![alt text](https://github.com/girishGM/notification-service/blob/main/NotificationServiceFlow.png?raw=true)
 
