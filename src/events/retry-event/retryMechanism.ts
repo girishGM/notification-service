@@ -42,7 +42,7 @@ export const processDLQMessage = async () => {
       partitionsConsumedConcurrently: 3,
       eachMessage: async ({ topic, partition, message }) => {
         let emailRequest: EmailRequest = JSON.parse(message.value.toString());
-        console.log(`Emailrequest consumed from kafka :: ${emailRequest}`);
+        console.log(`Emailrequest consumed from kafka :: ${JSON.stringify(emailRequest)}`);
         emailRequest = {...emailRequest,
           to:alarmEmail,
           templateId:2

@@ -16,8 +16,6 @@ const router: Express = express();
 /** Logging */
 // create a write stream (in append mode)
 var accessLogStream = fs.createWriteStream(__dirname + '/access.log',{flags: 'a'});
-// setup the logger
-//app.use(morgan('combined', {stream: accessLogStream}))
 
 router.use(morgan('dev', {stream: accessLogStream}));
 /** Parse the request */
