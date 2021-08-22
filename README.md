@@ -18,6 +18,7 @@ To start get the code from the git hub repo then follow below steps:
     
  ### Run docker compose
      Run docker conatiners from the root of the project, using below command :
+     
      ```bash
         docker-compose up 
       ```     
