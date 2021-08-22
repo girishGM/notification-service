@@ -15,6 +15,12 @@ To start get the code from the git hub repo then follow below steps:
  ### Docker compose file
     Please update the ALARM_EMAIL key under notificationservice,  
     this will be used to send an email when processing of a message is failed.
+    
+ ### Run docker compose
+     Run docker conatiners from the root of the project, using below command :
+     ```bash
+        docker-compose up 
+      ```     
 
 ### 2. Not using docker container
   ### Installation
