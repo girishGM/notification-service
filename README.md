@@ -8,7 +8,7 @@ To start get the code from the git hub repo then follow below steps:
 
 ## Run Project
 
-### 1. Not using docker container
+### 1. Using docker compose
   ### Environment property file
     create a .env file using provided .env.sample file to put all environment related variables.
     
@@ -23,7 +23,7 @@ To start get the code from the git hub repo then follow below steps:
         docker-compose up 
       ```     
 
-### 2. Not using docker container
+### 2. Using local system
   ### Installation
 
   Ensure you have [Node.js] installed on your computer, if you want to run this project on your local and not using the docker container.
