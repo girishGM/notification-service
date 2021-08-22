@@ -9,8 +9,6 @@ To start get the code from the git hub repo then follow below steps:
 ## Run Project
 
 ### 1. Using docker compose
-  ### Environment property file
-    create a .env file using provided .env.sample file to put all environment related variables.
     
  ### Docker compose file
     Please update the ALARM_EMAIL key under notificationservice,  
@@ -36,12 +34,16 @@ To start get the code from the git hub repo then follow below steps:
     npm install 
   ```
 
+  ### Environment property file
+    create a .env file using provided .env.sample file configured all environment related variables.
+
+
   ## To start the application 
 
   ### npm
 
   ```bash
-    npm run dev 
+    npm run start 
    ```
 
 
